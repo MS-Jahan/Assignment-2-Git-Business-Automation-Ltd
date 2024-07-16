@@ -1,0 +1,131 @@
+.navbar {
+    background-color: #00c2a8;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.hero-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.appointment-form {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-top-icon {
+    color: #00c2a8
+}
+
+.nav-item {
+    padding-inline: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.booking-form input {
+    padding: 10px;
+    border: 1px solid #00c2a8;
+}
+
+.booking-form select {
+    padding: 10px;
+    border: 1px solid #00c2a8;
+}
+
+.booking-form input::placeholder,
+.booking-form select::placeholder {
+    color: #00c2a8;
+    /* Change this to your desired color */
+}
+
+
+.custom-date-input {
+    position: relative;
+    z-index: 4;
+}
+
+.form-control[readonly] {
+    cursor: pointer;
+}
+
+/* change the color of the calendar icon to #00c2a8 */
+.custom-date-input input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+
+}
+
+.hr-line {
+    background-color: #00c2a8;
+    height: 3px;
+    width: 105px;
+    margin-top: 0;
+}
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+}
+
+.input-group .form-control {
+    border-right: none;
+}
+
+.input-group-text {
+    background-color: white;
+    border: 1px solid #00c2a8;
+    border-left: none;
+    color: #00c2a8;
+    padding: 0.375rem 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+#formattedDateInput {
+    border-right: none;
+    border-radius: 0.375rem 0 0 0.375rem;
+    color: #00c2a8;
+}
+
+#dateInput {
+    border-radius: 0.375rem 0 0 0.375rem;
+    color: #00c2a8;
+}
+
+.input-group-text i {
+    color: #00c2a8;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.desktop-only {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .desktop-only {
+        display: block;
+        position: absolute;
+        top: 390px;
+        z-index: 10;
+        left: 1135px;
+    }
+}
